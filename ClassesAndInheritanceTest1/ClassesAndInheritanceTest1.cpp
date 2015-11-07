@@ -17,7 +17,7 @@ int main()
 
 	Human h1 = Human();
 	Human h2("Nikos Baltas", 12, 122, Male);
-	Human h3("dimitra kati", 22, 140, Female);
+	Human h3("dimitra kati", 22, 140, Female); 
 
 	list<Animal> animals = list<Animal>{a1,a2};
 
