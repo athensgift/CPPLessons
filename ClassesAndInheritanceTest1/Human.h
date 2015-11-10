@@ -12,6 +12,7 @@ class Human :
 {
 private:
 	int iq;
+	int x;
 	Gender gender;
 public:
 	Human();
