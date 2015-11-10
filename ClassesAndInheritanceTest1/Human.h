@@ -12,6 +12,7 @@ class Human :
 {
 private:
 	int iq;
+	bool gamieteIPizzaFan = true;
 	Gender gender;
 public:
 	Human();
