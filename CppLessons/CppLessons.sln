@@ -7,7 +7,7 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GradingProgramm", "GradingP
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ColaMachine", "ColaMachine\ColaMachine.vcxproj", "{CA6B7A86-4D26-4982-9CB3-058B9A0A8DC1}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WhileAndBreak", "..\..\..\Visual Studio 2015\Projects\WhileAndBreak\WhileAndBreak\WhileAndBreak.vcxproj", "{3D7E1046-7037-49C8-9F0D-53F35C0A66A6}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WhileAndBreak", "WhileAndBreak\WhileAndBreak\WhileAndBreak.vcxproj", "{3D7E1046-7037-49C8-9F0D-53F35C0A66A6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
