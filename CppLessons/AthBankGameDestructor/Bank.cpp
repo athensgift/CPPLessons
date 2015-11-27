@@ -7,7 +7,9 @@ Bank::Bank(string bankName, int numberOfCoins): name(bankName), coinsInBank(numb
 
 int Bank::vendCoins(int numberOfCoinsToVend)
 {
-	return coinsInBank < numberOfCoinsToVend ? coinsInBank : numberOfCoinsToVend;
+	int temp = coinsInBank < numberOfCoinsToVend ? coinsInBank : numberOfCoinsToVend;
+	coinsInBank -= temp;
+	return temp;
 }
 
 void Bank::receiveCoins(int numberOfCoinsToReceive)

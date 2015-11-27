@@ -12,7 +12,7 @@ void Player::winCoins(int winCoins)
 
 string Player::description()
 {
-	return "Ο player : "+userName+" έχει "+to_string(coins)+" coins, και χρησιμοποιεί την τράπεζα " + bank.description;
+	return "Ο player : "+userName+" έχει "+to_string(coins)+" coins, και χρησιμοποιεί την τράπεζα " + bank.description();
 }
 
 Player::~Player()
